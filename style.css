@@ -11,6 +11,10 @@ h2 {
     color : black;
 }
 
+h2:hover {
+    color: red;
+    transition: 1.5s;    
+
 h1 {
     color: black;
 }
