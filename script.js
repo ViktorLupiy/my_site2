@@ -23,7 +23,6 @@ darkBtn.style.right = "10px";
 darkBtn.style.padding = "10px";
 darkBtn.style.cursor = "pointer";
 darkBtn.style.background = "black";
-darkBtn.style.backgroundSize = "cover";
 
 document.body.appendChild(darkBtn);
 
