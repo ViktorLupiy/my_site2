@@ -15,32 +15,31 @@ document.querySelectorAll("h2").forEach(title => {
 });
 
 
-const darkBtn = document.createElement("button");
-darkBtn.innerText = "🌙 Dark Mode";
-darkBtn.style.position = "fixed";
-darkBtn.style.top = "10px";
-darkBtn.style.right = "10px";
-darkBtn.style.padding = "10px";
-darkBtn.style.cursor = "pointer";
+window.addEventListener("DOMContentLoaded", () => {
+  const darkBtn = document.createElement("button");
+  darkBtn.innerText = "🌙 Dark Mode";
+  darkBtn.style.position = "fixed";
+  darkBtn.style.top = "10px";
+  darkBtn.style.right = "10px";
+  darkBtn.style.padding = "10px";
+  darkBtn.style.cursor = "pointer";
 
-document.body.appendChild(darkBtn);
+  document.body.appendChild(darkBtn);
 
-darkBtn.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-
-  if (document.body.classList.contains("dark")) {
-    localStorage.setItem("theme", "dark");
-  } else {
-    localStorage.setItem("theme", "light");
-  }
-});
-
-window.addEventListener("load", () => {
   if (localStorage.getItem("theme") === "dark") {
     document.body.classList.add("dark");
   }
-});
 
+  darkBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+      localStorage.setItem("theme", "dark");
+    } else {
+      localStorage.setItem("theme", "light");
+    }
+  });
+});
 
 
 const topBtn = document.createElement("button");
