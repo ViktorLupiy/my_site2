@@ -24,3 +24,10 @@ img  {
     width: 150px;
     border-radius: 10px;
 }
+
+
+.arrow-next {
+    font-size: 5em;
+    margin: 0;
+    cursor: pointer;
+}
