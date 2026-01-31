@@ -25,13 +25,8 @@ img  {
     border-radius: 10px;
 }
 
-
-.arrow-next {
-    font-size: 5em;
-    margin: 0;
-    cursor: pointer;
-}
-
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url ("https://images.tynker.com/blog/wp-content/uploads/20250401220809/robloxxjpg-1.jpg")
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url ("https://images.tynker.com/blog/wp-content/uploads/20250401220809/robloxxjpg-1.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
 }
