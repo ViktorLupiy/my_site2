@@ -30,3 +30,22 @@ header {
     background-repeat: no-repeat;
   background-size: cover;
 }
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark p,
+body.dark li {
+  color: white;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  background: #5865f2;
+  color: white;
+}
