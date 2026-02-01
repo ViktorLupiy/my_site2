@@ -27,14 +27,14 @@ img  {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-              url('https://images.tynker.com/blog/wp-content/uploads/202504120809/robloxxpg-1.jpg');
+url('https://images.tynker.com/blog/wp-content/uploads/202504120809/robloxxpg-1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 
-  padding: 60px 20px;   /* spazio interno */
-  min-height: 300px;    /* altezza minima */
-  color: white;         /* testo leggibile sopra immagine */
+  padding: 60px 20px;
+  min-height: 300px;  
+  color: white; 
 }
 
 body.dark {
@@ -55,4 +55,3 @@ button {
   background: #5865f2;
   color: white;
 }
-
