@@ -60,10 +60,3 @@ window.addEventListener("scroll", () => {
 topBtn.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
-
-function scrollDown() {
-    window.scrollTo({top: window.innerHeight, behavior: 'smooth' });
-}
-
-let button = document.querySelector('.arrow-next')
-button.addEventListener('click', scrollDown)
