@@ -54,3 +54,58 @@ button {
   background: #5865f2;
   color: white;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.hero {
+  height: 100vh; /* grande quanto tutto lo schermo */
+  background: linear-gradient(180deg, #4cc9f0, #4361ee);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Pattern cartoon tipo gioco */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.15) 10%, transparent 10%);
+  background-size: 90px 90px;
+  animation: moveBg 25s linear infinite;
+}
+
+@keyframes moveBg {
+  from { transform: translate(0, 0); }
+  to { transform: translate(90px, 90px); }
+}
+
+.hero-content {
+  z-index: 2;
+}
+
+.hero h1 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 5rem; /* titolo enorme */
+  color: white;
+  text-shadow: 6px 6px 0 #000;
+  margin: 0;
+}
+
+/* Freccia gigante */
+.arrow-next {
+  font-size: 6rem;
+  margin-top: 40px;
+  cursor: pointer;
+  animation: bounce 1.6s infinite;
+  text-shadow: 5px 5px 0 #000;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(22px); }
+}
