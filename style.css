@@ -1,9 +1,5 @@
 body {
 background-color: white;
-display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
 }
 
 p {
@@ -59,3 +55,4 @@ button {
   background: #5865f2;
   color: white;
 }
+
