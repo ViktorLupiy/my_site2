@@ -101,7 +101,7 @@ button {
   overflow: hidden;
 }
 
-/* Pattern cartoon tipo gioco */
+
 .hero::before {
   content: "";
   position: absolute;
@@ -129,7 +129,7 @@ button {
   margin: 0;
 }
 
-/* Freccia gigante */
+
 .arrow-next {
   font-size: 6rem;
   margin-top: 40px;
