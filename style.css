@@ -23,6 +23,15 @@ body::before {
   z-index: -1;
 }
 
+body.dark-mode {
+  background-color: #1b1f3a;
+}
+
+body.dark-mode::before {
+  opacity: 0.12;
+  filter: brightness(0.8);
+}
+
 p {
 color: black;
 }
