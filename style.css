@@ -91,7 +91,7 @@ button {
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
 .hero {
-  height: 100vh; /* grande quanto tutto lo schermo */
+  height: 100vh;
   background: linear-gradient(180deg, #4cc9f0, #4361ee);
   display: flex;
   justify-content: center;
@@ -142,3 +142,4 @@ button {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(22px); }
 }
+
