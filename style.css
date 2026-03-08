@@ -63,7 +63,7 @@ img  {
 
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-url('https://images.tynker.com/blog/wp-content/uploads/20250401220809/robloxxjpg-1.jpg');
+url('https://images.tynker.com/blog/wp-content/uploads/20250401220809/robloxxjpg-1.jpg')
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -126,7 +126,7 @@ button {
 
 .hero h1 {
   font-family: 'Luckiest Guy', cursive;
-  font-size: 5rem; /* titolo enorme */
+  font-size: 5rem;
   color: white;
   text-shadow: 6px 6px 0 #000;
   margin: 0;
